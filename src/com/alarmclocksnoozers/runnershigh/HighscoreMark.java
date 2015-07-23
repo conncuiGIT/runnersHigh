@@ -2,6 +2,7 @@ package com.alarmclocksnoozers.runnershigh;
 
 import android.graphics.Bitmap;
 import android.util.Log;
+import com.alarmclocksnoozers.tools.Settings;
 
 public class HighscoreMark extends Group
 {

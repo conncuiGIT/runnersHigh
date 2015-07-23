@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.alarmclocksnoozers.tools.Settings;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -37,8 +38,6 @@ import android.os.Handler;
 import android.view.Gravity;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TableLayout;
@@ -297,7 +296,7 @@ public class HighScoreActivity extends Activity {
     	TableRow tr = new TableRow(this);
 
     	tr.setLayoutParams(new LayoutParams(
-                LayoutParams.FILL_PARENT,
+                LayoutParams.MATCH_PARENT,
                 LayoutParams.WRAP_CONTENT));
     	
     	

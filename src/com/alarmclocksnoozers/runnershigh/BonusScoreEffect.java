@@ -1,6 +1,7 @@
 package com.alarmclocksnoozers.runnershigh;
 
 import android.util.Log;
+import com.alarmclocksnoozers.tools.Settings;
 
 public class BonusScoreEffect extends RHDrawable {
 	

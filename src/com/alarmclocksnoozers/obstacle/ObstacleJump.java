@@ -1,6 +1,8 @@
-package com.alarmclocksnoozers.runnershigh;
+package com.alarmclocksnoozers.obstacle;
 
 import android.graphics.Bitmap;
+import com.alarmclocksnoozers.runnershigh.Sprite;
+import com.alarmclocksnoozers.tools.Util;
 
 
 public class ObstacleJump extends Obstacle {

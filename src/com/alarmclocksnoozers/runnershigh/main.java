@@ -18,6 +18,9 @@ import android.view.MotionEvent;
 import android.view.Window;
 import android.view.WindowManager;
 import com.alarmclocksnoozers.highscore.HighscoreAdapter;
+import com.alarmclocksnoozers.tools.Settings;
+import com.alarmclocksnoozers.tools.SoundManager;
+import com.alarmclocksnoozers.tools.Util;
 
 public class main extends Activity {
 		PowerManager.WakeLock wakeLock ;

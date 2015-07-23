@@ -9,6 +9,11 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Rect;
 import android.util.Log;
+import com.alarmclocksnoozers.obstacle.Obstacle;
+import com.alarmclocksnoozers.obstacle.ObstacleBonus;
+import com.alarmclocksnoozers.obstacle.ObstacleJump;
+import com.alarmclocksnoozers.tools.Settings;
+import com.alarmclocksnoozers.tools.Util;
 
 
 public class Level {

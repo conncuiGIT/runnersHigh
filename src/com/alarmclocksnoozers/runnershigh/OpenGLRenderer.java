@@ -21,6 +21,7 @@ import javax.microedition.khronos.opengles.GL10;
 import android.opengl.GLU;
 import android.opengl.GLSurfaceView.Renderer;
 import android.util.Log;
+import com.alarmclocksnoozers.tools.Settings;
 
 public class OpenGLRenderer implements Renderer {
 	private final Group root;
@@ -49,7 +50,7 @@ public class OpenGLRenderer implements Renderer {
 		// Set the background color to black ( rgba ).
 		gl.glClearColor(0.0f, 0.0f, 0.0f, 0.5f);
 
-		//besser für performance?
+		//besser fï¿½r performance?
 		gl.glDisable(GL10.GL_DITHER);
 
 		

@@ -15,6 +15,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
+import com.alarmclocksnoozers.tools.Settings;
 
 public class Menu extends Activity {
 	MediaPlayer menuLoop;

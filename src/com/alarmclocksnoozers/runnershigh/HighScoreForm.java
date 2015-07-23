@@ -13,6 +13,7 @@ import android.view.View.OnKeyListener;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.alarmclocksnoozers.tools.Settings;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;

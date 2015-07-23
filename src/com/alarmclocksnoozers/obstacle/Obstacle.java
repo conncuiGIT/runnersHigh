@@ -1,6 +1,7 @@
-package com.alarmclocksnoozers.runnershigh;
+package com.alarmclocksnoozers.obstacle;
 
 import android.graphics.Rect;
+import com.alarmclocksnoozers.runnershigh.RHDrawable;
 
 public class Obstacle extends RHDrawable {
 	private Rect ObstacleRect;

@@ -1,4 +1,4 @@
-package com.alarmclocksnoozers.runnershigh;
+package com.alarmclocksnoozers.tools;
 
 import java.io.IOException;
 
@@ -6,6 +6,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Log;
+import com.alarmclocksnoozers.runnershigh.OpenGLRenderer;
 
 
 public class Util {

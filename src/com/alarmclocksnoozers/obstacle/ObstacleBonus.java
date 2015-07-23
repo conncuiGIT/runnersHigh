@@ -1,6 +1,8 @@
-package com.alarmclocksnoozers.runnershigh;
+package com.alarmclocksnoozers.obstacle;
 
 import android.graphics.Bitmap;
+import com.alarmclocksnoozers.runnershigh.BonusScoreEffect;
+import com.alarmclocksnoozers.tools.Util;
 
 public class ObstacleBonus extends Obstacle {
 	public char ObstacleType; //s=slow, j=jumper //b=bonus
