@@ -1,4 +1,4 @@
-package com.alarmclocksnoozers.runnershigh;
+package com.alarmclocksnoozers.level;
 
 
 import java.util.Random;
@@ -12,6 +12,9 @@ import android.util.Log;
 import com.alarmclocksnoozers.obstacle.Obstacle;
 import com.alarmclocksnoozers.obstacle.ObstacleBonus;
 import com.alarmclocksnoozers.obstacle.ObstacleJump;
+import com.alarmclocksnoozers.runnershigh.OpenGLRenderer;
+import com.alarmclocksnoozers.runnershigh.Player;
+import com.alarmclocksnoozers.runnershigh.RHDrawable;
 import com.alarmclocksnoozers.tools.Settings;
 import com.alarmclocksnoozers.tools.Util;
 
@@ -513,7 +516,6 @@ public class Level {
 			return;
 		}
 		obstacleValue -= OBSTACLEMASK_7_JUMP_SLOW_BONUS;
-		
 	}
 	
 	private void appendObstaclesToEnd(Boolean spawnJumper, Boolean spawnSlower, Boolean spawnBonus)

@@ -2,7 +2,7 @@ package com.alarmclocksnoozers.runnershigh;
 
 import javax.microedition.khronos.opengles.GL10;
 import android.graphics.Bitmap;
-
+//视察/错觉背景 ,使用几张不同艳丽程度的图片前后层叠
 public class ParalaxBackground extends Group {
 	
 	private RHDrawable backgroundLayer1;

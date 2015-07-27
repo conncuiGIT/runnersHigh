@@ -6,13 +6,14 @@
  * 	Highscore form Activity - shows input field to save score and name 
  */
 
-package com.alarmclocksnoozers.runnershigh;
+package com.alarmclocksnoozers.assist;
 
 import java.io.IOException;
 import android.view.View.OnKeyListener;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.alarmclocksnoozers.runnershigh.R;
 import com.alarmclocksnoozers.tools.Settings;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
@@ -41,7 +42,7 @@ import android.widget.TextView;
 
 import com.alarmclocksnoozers.highscore.HighscoreAdapter;
 
-public class HighScoreForm extends Activity {
+public class HighScoreFormActivtiy extends Activity {
 	
 	private HighscoreAdapter highScoreAdapter = null;
 	private EditText nameField;

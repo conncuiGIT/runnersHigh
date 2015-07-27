@@ -1,4 +1,4 @@
-package com.alarmclocksnoozers.runnershigh;
+package com.alarmclocksnoozers.assist;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,9 +7,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
+import com.alarmclocksnoozers.runnershigh.R;
 import com.alarmclocksnoozers.tools.Settings;
 
-public class Info extends Activity{
+public class InfoActivity extends Activity{
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {

@@ -2,8 +2,8 @@ package com.alarmclocksnoozers.runnershigh;
 
 
 public class RHDrawable extends Mesh {
-	protected float width;
-	protected float height;
+	public float width;
+	public float height;
 	
 	public RHDrawable(float _x, float _y, float _z, float _width, float _height) {
 		x = _x;

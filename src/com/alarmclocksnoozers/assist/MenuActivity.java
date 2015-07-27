@@ -1,4 +1,4 @@
-package com.alarmclocksnoozers.runnershigh;
+package com.alarmclocksnoozers.assist;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -15,9 +15,11 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
+import com.alarmclocksnoozers.runnershigh.MainActivity;
+import com.alarmclocksnoozers.runnershigh.R;
 import com.alarmclocksnoozers.tools.Settings;
 
-public class Menu extends Activity {
+public class MenuActivity extends Activity {
 	MediaPlayer menuLoop;
 	private Toast loadMessage;
 	private Runnable gameLauncher;
@@ -32,13 +34,13 @@ public class Menu extends Activity {
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		
     	super.onCreate(savedInstanceState);
-        setContentView(R.layout.menu); 
+        setContentView(R.layout.menu);
         
 
 		loadMessage = Toast.makeText(getApplicationContext(), "loading game...", Toast.LENGTH_SHORT );
 		loadMessage.setGravity(Gravity.CENTER|Gravity.CENTER, 0, 0);
         
-		gameIntent = new Intent (this, main.class);
+		gameIntent = new Intent (this, MainActivity.class);
 		mPlayButton = (android.widget.Button)findViewById(R.id.startButton);
 		mPlayButton.setClickable(true);
 		mPlayButton.setEnabled(true);
@@ -86,7 +88,7 @@ public class Menu extends Activity {
     }
     
     public void showInfo(View view) {
-    	Intent myIntent = new Intent (this, Info.class);
+    	Intent myIntent = new Intent (this, InfoActivity.class);
     	startActivity (myIntent);
     }
     

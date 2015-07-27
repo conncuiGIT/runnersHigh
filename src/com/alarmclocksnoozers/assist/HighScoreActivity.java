@@ -6,12 +6,13 @@
  * 	Highscore Activity itself - shows highscores of user 
  */
 
-package com.alarmclocksnoozers.runnershigh;
+package com.alarmclocksnoozers.assist;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.alarmclocksnoozers.runnershigh.R;
 import com.alarmclocksnoozers.tools.Settings;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

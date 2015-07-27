@@ -33,7 +33,7 @@ public class Settings {
 	public static final boolean RHDEBUG = false;
 	public static boolean SHOW_FPS = false;
 
-	public static final boolean showHighscoreMarks = false;
+	public static final boolean showHighscoreMarks = true;
 	
 	//gameplay settings
 	static public float FirstBlockHeight = 50;

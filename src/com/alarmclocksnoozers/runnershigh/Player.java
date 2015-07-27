@@ -5,6 +5,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Rect;
 import android.util.Log;
+import com.alarmclocksnoozers.level.Level;
 import com.alarmclocksnoozers.tools.Settings;
 import com.alarmclocksnoozers.tools.SoundManager;
 import com.alarmclocksnoozers.tools.Util;

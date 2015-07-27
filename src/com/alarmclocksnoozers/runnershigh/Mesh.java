@@ -29,7 +29,7 @@ import android.opengl.GLUtils;
 /**
  * Mesh is a base class for 3D objects making it easier to create and maintain
  * new primitives.
- * 
+ * Mesh 是一个为了使创建和保持原始对象/元素 更容易的基础类
  * @author Per-Erik Bergman (per-erik.bergman@jayway.com)
  * 
  */
@@ -156,7 +156,7 @@ public class Mesh {
 	 * 
 	 * @param vertices
 	 */
-	protected void setVertices(float[] vertices) {
+	public void setVertices(float[] vertices) {
 		// a float is 4 bytes, therefore we multiply the number if
 		// vertices with 4.
 		ByteBuffer vbb = ByteBuffer.allocateDirect(vertices.length * 4);
@@ -171,7 +171,7 @@ public class Mesh {
 	 * 
 	 * @param indices
 	 */
-	protected void setIndices(short[] indices) {
+	public void setIndices(short[] indices) {
 		// short is 2 bytes, therefore we multiply the number if
 		// vertices with 2.
 		ByteBuffer ibb = ByteBuffer.allocateDirect(indices.length * 2);
@@ -187,7 +187,7 @@ public class Mesh {
 	 * 
 	 * @param textureCoords
 	 */
-	protected void setTextureCoordinates(float[] textureCoords) { 
+	public void setTextureCoordinates(float[] textureCoords) {
 		// float is 4 bytes, therefore we multiply the number if
 		// vertices with 4.
 		byteBuf = ByteBuffer.allocateDirect(textureCoords.length * 4);
